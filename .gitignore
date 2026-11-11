@@ -1,0 +1,29 @@
+# зависимости и сборка
+node_modules
+dist
+*.tsbuildinfo
+.vite
+
+# секреты и окружение
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# логи и системные файлы
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# личные документы: сканы дипломов и резюме не публикуйте в открытом репозитории,
+# если не уверены, что их можно показывать всем. Уберите строки ниже, чтобы
+# добавить файлы в репозиторий осознанно (например, для деплоя через Git).
+public/certificates/*
+!public/certificates/.gitkeep
+public/resume/*
+!public/resume/.gitkeep
